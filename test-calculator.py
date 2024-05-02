@@ -1,4 +1,4 @@
-# test_calculator.py
+# test-calculator.py
 
 from calculator import add
 
