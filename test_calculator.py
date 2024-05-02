@@ -1,7 +1,6 @@
 # test_calculator.py
 
 from calculator import add
-import pytest
 
 def test_add():
     """Test case for add function."""
