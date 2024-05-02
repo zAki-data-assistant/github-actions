@@ -1,5 +1,6 @@
 # test-calculator.py
 
+import pytest
 from calculator import add
 
 def test_add():
@@ -13,3 +14,4 @@ def test_add_negative():
 def test_add_zero():
     """Test case for add function with zero."""
     assert add(0, 0) == 0, "Should be 0"
+
